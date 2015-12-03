@@ -1,0 +1,11 @@
+$image-size: 250px;
+$margin: 20px;
+
+.flickr-img {
+    background-size: cover;
+    width: $image-size;
+    height: $image-size;
+    background-position: center center;
+    margin: 0px $margin $margin 0px;
+    display: inline-block;
+}
