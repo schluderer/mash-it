@@ -4,4 +4,6 @@ require('gulp-task-loader')({config: config});
 
 gulp.task('build', ['clean', 'server:build', 'client:build']);
 
-gulp.task('default', ['build', 'serve', 'watch', 'open']);
+gulp.task('test', ['server:test']);
+
+gulp.task('default', ['build', 'test', 'serve', 'watch', 'open']);

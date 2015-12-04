@@ -30,6 +30,7 @@
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.0",
     "gulp-concat": "^2.6.0",
+    "gulp-jasmine": "^2.2.1",
     "gulp-live-server": "0.0.29",
     "gulp-sass": "^1.3.3",
     "gulp-sourcemaps": "^1.6.0",
@@ -45,6 +46,8 @@
       "clientSrc": "src/client/**/*.js",
       "clientEntry": "src/client/app.js",
       "serverSrc": "src/server/**/*.js",
+      "serverTests": "spec/server/**/*.spec.js",
+      "clientTests": "spec/client/**/*.spec.js",
       "css": [
         "node_modules/bootstrap/dist/css/bootstrap.css",
         "node_modules/bootstrap/dist/css/bootstrap-theme.css",

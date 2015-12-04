@@ -19,7 +19,6 @@ var query = function(term) {
 
                     });
                 });
-                
             }
             else {
                 resolve({
