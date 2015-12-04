@@ -14,4 +14,4 @@ module.exports = function() {
         .pipe(gulp.dest(config.paths.dist + config.paths.public + '/js'));
 };
 
-module.exports.dependencies = ['lint-client'];
+module.exports.dependencies = ['client:lint'];

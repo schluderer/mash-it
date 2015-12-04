@@ -7,4 +7,4 @@ module.exports = function() {
         .pipe(gulp.dest(config.paths.dist + config.paths.server));
 };
 
-module.exports.dependencies = ['lint-server'];
+module.exports.dependencies = ['server:lint'];

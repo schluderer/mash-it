@@ -14,4 +14,4 @@ module.exports = function() {
     gulp.watch(config.paths.dist + config.paths.server + '/**/*', restartServer);
     gulp.watch(config.paths.dist + config.paths.public + '/**/*', notifyBrowser);
 };
-module.exports.dependencies = ['server-js'];
+module.exports.dependencies = ['server:js'];
